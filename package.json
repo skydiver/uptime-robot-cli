@@ -1,0 +1,35 @@
+{
+  "name": "uptime-robot-cli",
+  "version": "2.0.0",
+  "description": "A command line client for Uptime Robot",
+  "bin": {
+    "up-cli2": "./bin/up.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "nyc mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skydiver/uptime-robot-cli.git"
+  },
+  "author": "Martín M.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skydiver/uptime-robot-cli/issues"
+  },
+  "homepage": "https://github.com/skydiver/uptime-robot-cli#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "cli-table": "^0.3.1",
+    "figlet": "^1.2.0",
+    "jsonfile": "^4.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
