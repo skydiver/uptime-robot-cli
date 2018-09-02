@@ -1,9 +1,9 @@
 {
   "name": "uptime-robot-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line client for Uptime Robot",
   "bin": {
-    "up-cli2": "./bin/up.js"
+    "uptimerobot": "./bin/up.js"
   },
   "publishConfig": {
     "access": "public"
@@ -27,6 +27,7 @@
   "dependencies": {
     "chalk": "^2.2.0",
     "cli-table": "^0.3.1",
+    "commander": "^2.17.1",
     "configstore": "^3.1.1",
     "figlet": "^1.2.0",
     "inquirer": "^4.0.1",
