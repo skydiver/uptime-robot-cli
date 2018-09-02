@@ -1,9 +1,9 @@
 {
   "name": "uptime-robot-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command line client for Uptime Robot",
   "bin": {
-    "uptimerobot": "./bin/up.js"
+    "uptimerobot": "./bin/uptimerobot.js"
   },
   "publishConfig": {
     "access": "public"
